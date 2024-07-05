@@ -7,9 +7,6 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['react-tilt/dist/tilt'],
-    },
-    rollupOptions: {
       external: ['react-tilt/dist/tilt']
     }
   },
