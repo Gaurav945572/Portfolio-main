@@ -4,7 +4,7 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className='relative z-0 bg-primary'>
        
        
@@ -24,7 +24,7 @@ const App = () => {
         
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
