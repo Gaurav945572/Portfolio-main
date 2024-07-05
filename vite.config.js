@@ -10,7 +10,7 @@ export default defineConfig({
       external: ['react-tilt/dist/tilt'],
     },
     rollupOptions: {
-      external: ['react-tilt/dist/ReactTilt.default'],
+      external: ['react-tilt/dist/tilt']
     }
   },
 });
