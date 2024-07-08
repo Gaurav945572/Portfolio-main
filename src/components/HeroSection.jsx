@@ -21,7 +21,7 @@ const HeroSection = () => {
           <img src="src\assets\Icons/setup.png" alt="Plus icon" width="35" height="25" />
         </div>
         <div className="user-image">
-          <img src="src\assets\Icons/my_image.png" alt="User" width="345" height="390" />
+          <img src="src\assets\Icons/my_image.png" alt="User" width="545" height="690" />
         </div>
       </div>
     </div>
