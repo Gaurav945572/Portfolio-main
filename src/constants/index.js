@@ -16,7 +16,8 @@ import {
   bootstrap,
   tailwind,
   mysql,
-  memories,
+  project_1_image,
+  project_2_image,
   quiz,
 } from "../assets";
 export const navLinks = [
@@ -167,8 +168,34 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: memories,
+    image: project_1_image,
     source_code_link: "https://github.com/Gaurav945572/NewsApp",
+  },
+  {
+    name: "Unit Converter",
+    description:
+      "A webapp which will be used for conversion of one unit to another another units. It includes temperature, mass, lenght and time units conversion. It can evaluate to high precession values. ",
+    tags: [
+      {
+        name: "HTML5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "blue-text-gradient",
+      },
+      
+    ],
+    image: project_2_image,
+    source_code_link: "https://github.com/Gaurav945572/Unit_converter",
   },
   
 ];

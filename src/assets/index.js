@@ -19,7 +19,8 @@ import nodejs from "./tech/nodejs.png";
 import mysql from "./tech/mysql.png";
 import reactjs from "./tech/reactjs.png";
 import express from './tech/express.png';
-import memories from "./memories.png";
+import project_1_image from "./project_1_image.png";
+import project_2_image from "./project_2_image.png";
 import tailwind from "./tech/tailwind.png"
 import bootstrap from "./tech/bootstrap.png"
 import quiz from "./quiz.png";
@@ -47,6 +48,7 @@ export {
   reactjs,
   mysql,
   express,
-  memories,
+  project_1_image,
+  project_2_image,
   quiz,
 };
