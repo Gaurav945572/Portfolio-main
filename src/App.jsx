@@ -27,7 +27,7 @@ const App = () => {
                   <div className=" bg-cover bg-no-repeat bg-center">
                     <Navbar />
                     <div className="relative z-0">
-                      <div className="flex  ml-10 mr-10">
+                      <div className="flex flex-row ml-5 mr-5 lg:mb-0 -mb-96">
                       <Hero />
                       <HeroSection/>
                       </div>

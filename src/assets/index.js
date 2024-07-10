@@ -10,6 +10,10 @@ import bachelors from './education/college.png'
 import school from './education/school.jpeg'
 import school2 from "./education/school2.png"
 
+
+
+
+
 import css from "./tech/css.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -25,8 +29,21 @@ import tailwind from "./tech/tailwind.png"
 import bootstrap from "./tech/bootstrap.png"
 import quiz from "./quiz.png";
 
+import blank from "./Icons/blank.png";
+import cross_swords from "./Icons/cross_swords.png";
+import cube from "./Icons/cube.png";
+import dotted from "./Icons/dotted.png";
+import my_image from "./Icons/my_image.png";
+import setup from "./Icons/setup.png";
+
 
 export {
+  blank,
+  cross_swords,
+  cube,
+  dotted,
+  my_image,
+  setup,
   logo,
   creator,
   web,
