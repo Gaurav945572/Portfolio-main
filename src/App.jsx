@@ -1,4 +1,3 @@
-
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import {
   About,
@@ -10,19 +9,13 @@ import {
   HeroSection,
   StarsCanvas,
 } from "./components";
-import { useState, useEffect } from "react";
 import Footer from "./components/Footer";
-
-
-
-
 const App = () => {
   return (
     <div>
       <BrowserRouter>
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
-          {/* <Hero /> */}
         </div>
         <Routes>
           <Route
@@ -59,5 +52,4 @@ const App = () => {
     </div>
   );
 };
-
 export default App;

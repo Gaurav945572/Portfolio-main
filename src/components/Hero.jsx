@@ -1,22 +1,15 @@
-
 import React, { useRef } from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
-import { Tilt } from "react-tilt";
-import { motion } from "framer-motion";
-import { fadeIn, textVariant } from "../utils/motion";
-
 import { styles } from "../styles";
-
 const Hero = () => {
-  const ref = useRef(null);
-  const [isExploding, setIsExploding] = React.useState(true);
-
   const [text, count] = useTypewriter({
     words: [
       " Web Developer",
       "Competitive Programmer",
       "Enthusiast Engineer",
       "Learner",
+      "Coder",
+      "Full Stack Developer",
       "Explorer",
     ],
     loop: true,
@@ -34,7 +27,6 @@ const Hero = () => {
               <div className="w-5 h-5 rounded-full bg-[#915eff]"></div>
               <div className="w-1 sm:h-80 h-40 violet-gradient"></div>
             </div>
-
             <div className="lg:w-[32rem]">
               <h1 className={`${styles.heroHeadText} text-white`}>
                 Hi, I'm <br />
@@ -42,18 +34,13 @@ const Hero = () => {
                   Gaurav Singh
                 </span>
               </h1>
-
-              <p
-                className={`${styles.heroSubText} mt-2 text-white-100 max-w-lg`}
-              >
+              <p className={`${styles.heroSubText} mt-2 text-white-100 max-w-lg`}>
                 {text}
                 <Cursor cursorColor="#915eff" />
               </p>
             </div>
           </div>
         </div>
-
-       
       </div>
     </section>
   );
