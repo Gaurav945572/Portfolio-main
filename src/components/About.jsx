@@ -4,6 +4,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import CodingProfile from "./CodingProfile.jsx";
 
 const ServiceCard = ({ index, title, icon }) => (
   <div className='xs:w-[250px] w-full'>
@@ -49,6 +50,8 @@ const About = () => {
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
+      <br /><br />
+      <CodingProfile></CodingProfile>
     </>
   );
 };

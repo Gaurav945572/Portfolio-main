@@ -18,6 +18,7 @@ import {
   mysql,
   project_1_image,
   project_2_image,
+  project_home_img,
   quiz,
 } from "../assets";
 export const navLinks = [
@@ -141,7 +142,43 @@ const experiences = [
     ],
   },
 ];
-const projects = [
+const projects = [{
+  name: "EstateDekho-HomeSpace",
+  description:
+    "Developed a full-stack web news application using JavaScript.Utilized the News API to retrieve and display real-time news articles to users. . Users can also update,add and delete their news notes.",
+  tags: [
+    {
+      name: "HTML5",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "Tailwind",
+      color: "green-text-gradient",
+    },
+    {
+      name: "Javascript",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "React",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "Express",
+      color: "orange-text-gradient",
+    },
+    {
+      name: "Node.Js",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "MongoDB",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: project_home_img,
+  source_code_link: "https://github.com/Gaurav945572/EstateDekho",
+},
   {
     name: "NewsApp",
     description:
@@ -165,7 +202,7 @@ const projects = [
       },
       {
         name: "News API",
-        color: "green-text-gradient",
+        color: "orange-text-gradient",
       },
     ],
     image: project_1_image,

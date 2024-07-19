@@ -25,6 +25,7 @@ import reactjs from "./tech/reactjs.png";
 import express from './tech/express.png';
 import project_1_image from "./project_1_image.png";
 import project_2_image from "./project_2_image.png";
+import project_home_img from "./project_home_img.png"
 import tailwind from "./tech/tailwind.png"
 import bootstrap from "./tech/bootstrap.png"
 import quiz from "./quiz.png";
@@ -35,9 +36,14 @@ import cube from "./Icons/cube.png";
 import dotted from "./Icons/dotted.png";
 import my_image from "./Icons/my_image.png";
 import setup from "./Icons/setup.png";
-
+import codeforces from "./codeforces.png";
+import codechef from "./one.png";
+import leetcode from "./leetcode.png";
 
 export {
+  codeforces,
+  codechef,
+  leetcode,
   blank,
   cross_swords,
   cube,
@@ -67,5 +73,6 @@ export {
   express,
   project_1_image,
   project_2_image,
+  project_home_img,
   quiz,
 };
