@@ -145,7 +145,7 @@ const experiences = [
 const projects = [{
   name: "EstateDekho-HomeSpace",
   description:
-    "Developed a full-stack web news application using JavaScript.Utilized the News API to retrieve and display real-time news articles to users. . Users can also update,add and delete their news notes.",
+    "Developed a full-stack web application that allows owners to create accounts and provide home details, enabling users to check rental information such as parking availability and furnishing status, and contact the owner.",
   tags: [
     {
       name: "HTML5",
